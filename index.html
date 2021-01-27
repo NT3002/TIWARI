@@ -10,23 +10,7 @@
 	</head>
     
 	 <body >
-		<div class="g-signin2" data-onsuccess="onSignIn" > </div>
-		<script>
-	  	function onSignIn(googleUser) {
-
-			var profile = googleUser.getBasicProfile();
-			console.log("ID: " + profile.getId()); 
-			console.log('Full Name: ' + profile.getName());
-			console.log('Given Name: ' + profile.getGivenName());
-			console.log('Family Name: ' + profile.getFamilyName());
-			console.log("Image URL: " + profile.getImageUrl());
-			console.log("Email: " + profile.getEmail());
-
-
-			var id_token = googleUser.getAuthResponse().id_token;
-			console.log("ID Token: " + id_token);
-		      }
-    		</script>
+	   <div class="g-signin2" data-onsuccess="onSignIn"></div>
 	   <p class="a">&lt; T ! vv A |2 !&gt ;</p>
 	   <p class="b"><h1>Nikhil </br>Tiwari</h1></p>
 	   <p class=""> 10001'<p>
@@ -51,4 +35,20 @@
 		</ul>
 		<p class="a">&lt; /T ! vv A |2 !&gt ;</p>
 	</body>
+	<script>
+	  	function onSignIn(googleUser) {
+
+			var profile = googleUser.getBasicProfile();
+			console.log("ID: " + profile.getId()); 
+			console.log('Full Name: ' + profile.getName());
+			console.log('Given Name: ' + profile.getGivenName());
+			console.log('Family Name: ' + profile.getFamilyName());
+			console.log("Image URL: " + profile.getImageUrl());
+			console.log("Email: " + profile.getEmail());
+
+
+			var id_token = googleUser.getAuthResponse().id_token;
+			console.log("ID Token: " + id_token);
+		      }
+    		</script>
 </html>
