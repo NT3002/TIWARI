@@ -10,15 +10,18 @@
 	</head>
     
 	 <body >
+	   <p class="a">&lt; T ! vv A |2 ! &gt;</p>
 	   <div class="g-signin2" data-onsuccess="onSignIn"></div>
 	   <button onclick="signOut()">Sign out</button>
-	   <p class="a">&lt; T ! vv A |2 !&gt ;</p>
+		 
+		 <div id="content" > </div>
+	   
 	   <p class="b"><h1>Nikhil </br>Tiwari</h1></p>
 	   <p class=""> 10001'<p>
 	   <p> Student At JCB UST, YMCA, Faridabad</p>
 	   <hr/>
 	   <p> <h2>Intro :</h2></p>
-		<p>About me </p>
+	   <p>About me </p>
 	   <p>I'm Nikhil Tiwari and Student At Jc Bose Univerisity, YMCA, Faridabad.</p>
 	   <p> I have a keen intrest in Compettive programming and.</p>
 	   <p>Will also try to have hands in Game Devlopment</p>
@@ -46,11 +49,12 @@
 			console.log('Family Name: ' + profile.getFamilyName());
 			console.log("Image URL: " + profile.getImageUrl());
 			console.log("Email: " + profile.getEmail());
-
-
 			var id_token = googleUser.getAuthResponse().id_token;
 			console.log("ID Token: " + id_token);
-		      }
+		      
+			document.querySelector{'#content'}.innerText = googleuser.getBasicProfile().getGivenName();
+		}
+		
 		function signOut() {
   			gapi.auth2.getAuthInstance().signOut().then(function() {
     			console.log('user signed out')
