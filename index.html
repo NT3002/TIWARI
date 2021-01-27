@@ -55,6 +55,8 @@
 			var image = document.createElement('img')
 			image.setAttribute('src',profile.getImageUrl())
 			element.append(image)
+			var mail = document.querySelector('#content')
+			mail.innerText = profile.getEmail();
 			}
 		
 		function signOut() {
