@@ -1,7 +1,9 @@
 /* CREATED BY NIKHIL TIWARI  */
 body {
-    background-image:url("https://github.com/NT3002/TIWARI/blob/main/3.jpg") ;
-	 background-size: 100%; 
+    
+	background-image:url("3.jpg");
+        height:700px;
+	 
 }
 /*.head {    
    
