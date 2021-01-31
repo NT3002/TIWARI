@@ -2,7 +2,8 @@
 body {
     
 	background-image:url("3.jpg");
-        height:100px;
+	background-repeat: no-repeat;
+	width :700px ;
 	 
 }
 /*.head {    
