@@ -1,38 +1,9 @@
-/* CREATED BY NIKHIL TIWARI  */
-body {
-    
-	background-image:url("BBB.jpeg");
-	background-repeat: no-repeat;
+body{
+    height: 100vh;
+    background: 
+	-webkit-gradient(linear,left top, right top,from(#7f53ac),to(#657ced) );
+    background: 
+    -o-linear-gradient(left,#7f53ac,#657ced );
+    background: 
+    linear-gradient(to right,#7f53ac,#657ced );
 }
-/*.head {    
-   
-    font-family: 'Satisfy',bold;
-    text-align: center;
-    font-size: 60px;
-    color: red;   
-}
-.text {    
-   
-    font-family: 'Satisfy',cursive,bold;
-    text-align: center;
-    font-size: 32px;
-    color: yellow;   
-}
-
-.temp {
-    font-family: 'Satisfy',cursive ;
-    text-align: center;
-    font-size: 25px;
-    color: yellowgreen;
-    
-}
-
-.link {
-    font-family: 'Satisfy',cursive ;
-    text-align: center;
-    font-size: 18px;
-    colour: white;
-    
-}
-   */
-
