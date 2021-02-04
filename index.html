@@ -45,7 +45,7 @@
 <p >I had noted your mail will contact you soon : 
 		<div id="data" > </div>
 <P><br><hr/><br></p>
-<button onclick="signOut()" onclick="refresh()"><b>Sign out</B></button>
+<button onclick="signOut()" ><b>Sign out</B></button>
     </p>
 <p><h1>&lt;/ T ! vv A |2 ! &gt </h1></p>
 	</body>
@@ -67,10 +67,7 @@
 		function signOut() {
   			gapi.auth2.getAuthInstance().signOut().then(function() {
     			console.log('user signed out')
-  			}
-		function refresh() {
-			location.reload();
+  			})
 		}
-			
     	</script>
 </html>
